@@ -1,0 +1,291 @@
+#encabezado{
+	background-color: white;
+}
+#logo{margin-left: 10px;
+		 }
+
+#otro{
+  margin: 0;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #212529;
+}
+ #titulo{
+ 	margin-left: 30px; 
+ 	margin-right: 100px;
+ 	font-size: 25px; 
+ }
+.navbar-nav {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li a:hover {
+  color: #8bffef;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out; 
+}
+.nav-item {
+    margin-right: 80px; 
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: white; 
+    font-size: 20px;
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+#imagen {
+   width: 38%; 
+   float: right;
+}
+#contenido{
+	width: 62%;
+	color: white; 
+   float: left;
+   font-family: Arial, sans-serif; height: 400px;
+}
+ .eslogan{margin-left: 30px;font-size: 40px;}
+ .naranja {margin-left: 30px; color: #59faff ;}
+.rojo { color: red;}
+span{font-size: 32px;}
+p{font-size: 18px;}
+b{font-size: 40px;}
+p, b {margin-left: 30px; display: inline-block;}
+.mi-boton {
+    background-color:white; margin-left: 30px;  
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-color: black;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#seccion{
+color:#2e2e2e ;
+   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+   p{ display: inline-block;}  
+}
+#a{font-size: 40px; font-weight: bold; margin-left: 100px;}
+#d{margin-left: 150px; text-align: center; margin-left: 430px; font-size: 20px}
+.cuadrado {
+    width: 500px; height: 100px;
+    margin-left: 350px;
+    background-color: transparent;
+    border: 1.5px solid blue; 
+    border-radius: 5px; }
+#f1{margin-left: 75px;}
+#margen{margin-left: 20px;
+text-decoration: none;
+color:black; }
+#tel{margin-right: 80px; margin-left: 90px;}
+#l{margin-left: 440px;}
+
+
+.boton{   background-color:black; margin-left: 30px;  
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#s{color: #f98c00 }
+#contactos{margin-left: 350px;
+}
+#contactos1{margin-left: 390px;}
+#zel{ font-weight: bold; margin-left: 320px; font-size: 20px}
+#cel{ font-weight: bold; margin-left: 350px; font-size: 20px}
+.n{ margin-left: 250px;text-align: center; }
+.no{margin-left: 250px;text-align: center; }
+#b1{margin-left: 285px;}
+#b2{margin-left: 320px;}
+#Pie{ 
+	font-family: Arial, sans-serif; 
+	background-color: black;
+	color: white;
+
+}
+#nu{margin-left: 450px;}
+#nu,p{
+	font-size: 15px;
+}
+.formulario {
+      width: 50%;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .campo {
+      margin-bottom: 20px;
+    }
+    .campo label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .campo input[type="text"], .campo input[type="email"], .campo select {
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+#btn1{
+    background-color:black;  
+    color: white;
+    padding: 7px 17px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 270px;
+}
+
+
+#contactos3{margin-left: 580px;
+}
+.linea {
+ border-top: 2px solid #02f7ff ;
+  width: 100%; 
+
+}
+input:focus {
+  outline: none;
+}
+
+
+/* Tablets y pantallas medianas */
+@media screen and (max-width: 992px) {
+  #contenido, #imagen {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .eslogan, .naranja, p, b, .mi-boton {
+    margin-left: 0;
+  }
+
+  #titulo {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .nav-item {
+    margin-right: 20px;
+  }
+
+  .cuadrado {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .formulario {
+    width: 90%;
+  }
+
+  #a, #d {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #f1, #tel, #l, #b1, #b2 {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+  }
+
+  #contactos, #contactos1, #contactos3, #zel, #cel, #nu {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .n, .no {
+    margin-left: 0;
+  }
+
+  #btn1 {
+    margin-left: 0;
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+/* Móviles */
+@media screen and (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .navbar-nav li a:hover {
+    font-size: 20px;
+  }
+
+  .boton, .mi-boton {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .eslogan {
+    font-size: 28px;
+  }
+
+  span {
+    font-size: 24px;
+  }
+
+  b {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #Pie {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .linea {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .formulario {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .campo input[type="text"],
+  .campo input[type="email"],
+  .campo select {
+    height: 36px;
+    font-size: 14px;
+  }
+
+  #btn1 {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}

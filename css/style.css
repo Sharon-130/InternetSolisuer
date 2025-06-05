@@ -1,0 +1,288 @@
+#encabezado{
+	background-color: white;
+		}
+#logo{margin-left: 10px;
+         }
+#otro{
+  margin: 0;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #212529;}
+ #titulo{
+ 	margin-left: 30px; 
+ 	margin-right: 100px;
+ 	font-size: 25px; 
+ }
+.navbar-nav {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li a:hover {
+  color: #8bffef;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out; 
+}
+.nav-item {
+    margin-right: 80px; 
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: white; 
+    font-size: 20px;
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+#imagen {
+   width: 50%; 
+   float: right;
+
+}
+#contenido{
+	width: 50%;
+	color: white; 
+   float: left;
+   font-family: Arial, sans-serif; height: 400px;
+}
+ .eslogan{margin-left: 30px;font-size: 40px;}
+ .naranja {margin-left: 30px; color: #59faff ;}
+.rojo { color: red;}
+span{font-size: 32px;}
+p{font-size: 18px;}
+b{font-size: 40px;}
+p, b {margin-left: 30px; display: inline-block;}
+.mi-boton {
+    background-color:white; margin-left: 30px;  
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-color: black;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#seccion{
+color:#2e2e2e ;
+   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+   p{ display: inline-block;}  
+
+#a{font-size: 40px; font-weight: bold; margin-left: 300px;}
+#d{margin-left: 150px; text-align: center; margin-left: 430px; font-size: 20px}
+.cuadrado {
+    width: 400px; height: 100px;
+    margin-left: 400px;
+    background-color: transparent;
+    border: 1.5px solid blue; 
+    border-radius: 5px; }
+#f1{margin-left: 100px;}
+#f2{margin-left: 140px;}
+#tel{margin-right: 80px; margin-left: 90px;}
+#l{margin-left:440px;}
+
+
+
+
+
+ #carrusel{ 
+    width: 40%;
+ box-flex:right;
+ margin-left: 350px;
+}
+
+.carousel-item {
+  scroll-snap-align: center;
+  min-width: 300px; 
+  margin: 10px;
+}
+
+.imagen-carrusel {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+
+}
+.seccion2{
+    width: 100%;
+}
+
+
+.control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.anterior {
+  left: 10px;
+}
+
+.siguiente {
+  right: 10px;
+}
+
+
+
+.boton{   background-color:black; margin-left: 30px;  
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#s{color: #f98c00 }
+#contactos{margin-left: 350px;
+}
+#contactos1{margin-left: 390px;}
+#zel{ font-weight: bold; margin-left: 320px; font-size: 20px}
+#cel{ font-weight: bold; margin-left: 350px; font-size: 20px}
+.n{ margin-left: 250px;text-align: center; }
+.no{margin-left: 250px;text-align: center; }
+#b1{margin-left: 285px;}
+#b2{margin-left: 320px;}
+#Pie{ 
+	font-family: Arial, sans-serif; 
+	background-color: black;
+	color: white;
+
+}
+#nu{margin-left: 450px;}
+#nu,p{
+	font-size: 15px;
+}
+#contactos3{margin-left: 580px;
+}
+.linea {
+ border-top: 2px solid #02f7ff ;
+  width: 100%; /* Ancho personalizado */
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+  #imagen, #contenido {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .eslogan, .naranja, p, b, .mi-boton {
+    margin-left: 0;
+  }
+
+  #titulo {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-right: 30px;
+  }
+
+  #carrusel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cuadrado {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #a {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #d {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #f1, #f2, #tel, #l {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #b1, #b2 {
+    margin-left: 20px;
+  }
+
+  #contactos, #contactos1, #contactos3, #zel, #cel, #nu {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .n, .no {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .navbar-nav li a:hover {
+    font-size: 20px;
+  }
+
+  .boton, .mi-boton {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #titulo {
+    font-size: 20px;
+  }
+
+  .eslogan {
+    font-size: 30px;
+  }
+
+  span {
+    font-size: 24px;
+  }
+
+  b {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #Pie {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .linea {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
